@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: none;
+  }
+  
+  .home{
+    /* padding: 30px; */
+    margin-top: 30px;
+  }
+
+  h1 {
+    text-align: center;
+    /* color: rgb(242, 40, 188); */
+  }
+
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  #btn {
+    width: 50px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .blog {
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 0 0 3px gray;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 24.5%;
+    margin-bottom: 20px;
+  }
+
+  .blogs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-top: 30px;
+  }
+
+  h3 {
+    /* color: rgb(242, 40, 188); */
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  h1 {
+    /* margin-bottom: 30px; */
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  form {
+    width: 40%;
+  }
+
+  textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .delete {
+    background-color: #000;
+    color: #fff;
+    width: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .contain-btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .blog-post {
+    box-sizing: border-box;
+    margin: 30px 0 30px 0;
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-image: url(../image/pexels-padrinan-1591056.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+  }
+
