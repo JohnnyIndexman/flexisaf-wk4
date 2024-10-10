@@ -43,7 +43,7 @@
     justify-content: center;
     gap: 20px;
     align-items: center;
-    width: 24.5%;
+    width: 23.5%;
     margin-bottom: 20px;
   }
 
@@ -118,3 +118,18 @@
     opacity: 1;
   }
 
+@media(max-width: 760px) {
+
+  .blogs {
+   flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
+}

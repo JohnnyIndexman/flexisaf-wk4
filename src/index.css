@@ -8,3 +8,10 @@
   padding: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media(max-width: 760px) {
+
+  .App{
+    padding: 10px;
+  }
+}
