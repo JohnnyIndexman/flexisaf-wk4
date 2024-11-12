@@ -69,7 +69,7 @@ const useFetch = () => {
           : b
       );
       updateBin(updatedBlog);
-      setData(updatedBlog); // Corrected here
+      setData(updatedBlog); 
       setEditMode(false);
     } else {
       const newBlogPost = {
@@ -80,7 +80,7 @@ const useFetch = () => {
       };
       const updatedBlog = [...data, newBlogPost];
       updateBin(updatedBlog);
-      setData(updatedBlog); // Corrected here
+      setData(updatedBlog); 
     }
     setNewPost({ title: "", body: "" });
   };

@@ -11,7 +11,7 @@ function Home() {
     handleSubmit,
     handleEdit,
     handleInputChange,
-  } = useFetch(); 
+  } = useFetch();
 
   return (
     <div className="home">
