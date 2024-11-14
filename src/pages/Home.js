@@ -14,7 +14,7 @@ function Home() {
   } = useFetch();
 
   return (
-    <div className="home">
+    <div className="home" role="home-page">
       <div className="blog-post">
         <h1>{editMode ? "Edit Post" : "Blog Posts"}</h1>
       </div>

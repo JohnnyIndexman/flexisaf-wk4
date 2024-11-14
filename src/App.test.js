@@ -1,8 +1,16 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+
+test('renders Nav, Home, and Footer components', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const navElement = screen.getByRole('navigation');
+  expect(navElement).toBeInTheDocument();
+
+  const homeElement = screen.getByRole('home-page');
+  expect(homeElement).toBeInTheDocument();
+
+  const footerElement = screen.getByRole('contentinfo');
+  expect(navElement).toBeInTheDocument();
 });
+
